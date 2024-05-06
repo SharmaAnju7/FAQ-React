@@ -10,6 +10,7 @@ const Hero = () => {
   return (
     <div className="container mx-auto py-10  rounded-lg border border-gray-300 ml-1 px-8">
       <div className="">
+        <h1 className="">Hero Section Header</h1>
         {Data.map((item, index) => (
           <div key={index} className="mb-8">
             <div
